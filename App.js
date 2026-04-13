@@ -54,7 +54,7 @@ export default function App() {
     };
 
     const onRefresh = () => {
-        if (!isAtTop) return; // 🔑 solo si está arriba
+        if (!isAtTop) return; // solo si está arriba
 
         setRefreshing(true);
         webViewRef.current?.reload();
