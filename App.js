@@ -100,7 +100,7 @@ export default function App() {
                     </Pressable>
 
                     <Pressable onPress={reload} style={styles.button}>
-                        <Text style={styles.buttonText}>⟳ Recargar</Text>
+                        <Text style={styles.buttonText}>⟳ Recargandoooo</Text>
                     </Pressable>
 
                     <Pressable
